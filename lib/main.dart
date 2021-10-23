@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Colors.blue,
       ),
       body: Container(
-        color: Colors.amberAccent.shade200,
+        color: Colors.amberAccent.shade100,
         child: Stack(
           children: [
             if(!_guessAge)
@@ -159,7 +159,7 @@ class _HomePageState extends State<HomePage> {
                               child: OutlinedButton(
                                 onPressed: guessClickButton,
                                 style: OutlinedButton.styleFrom(
-                                  backgroundColor: Colors.amberAccent,
+                                  backgroundColor: Colors.amberAccent.shade100,
                                 ),
                                 child: Text("ทาย"),
                               ),
